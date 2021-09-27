@@ -4,3 +4,5 @@ game with unicorn
 https://studio.code.org/projects/playlab/Q0kTxLgEvT5ksZjKJBZJyvs5kmnZafZ7nqDucJmb3Us
 app
 https://studio.code.org/projects/applab/57YRVWgaefzDj2PdIlcB5SEr0HmInzaCx0tw5O48iUs
+Unicorn Chase V.2
+https://studio.code.org/projects/playlab/8sA3frw2KJ7URFu_sqn64ML2VBQwrLWdB0kdl4e2owg
