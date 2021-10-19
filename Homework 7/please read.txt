@@ -1,2 +1,6 @@
 I did not want to move my files out of week 6 because it was causing issues.
 Here is the link to week 6 Git files.
+https://github.com/JacobFerber/MART-120/tree/main/Homework-6
+
+Once there just open the Homepage. I left everything from last week so the file is pretty messy. 
+Next week I want to learn how to have better organization with my pages.
