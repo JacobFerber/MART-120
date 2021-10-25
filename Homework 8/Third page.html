@@ -1,0 +1,87 @@
+<html>
+        <title> CONTACT US</title>
+    <head>           
+    <span id="greetingheader">CONTACT US</span><br>
+
+    <title>External Style Sheet</title>
+            <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+    
+
+
+
+    <script> 
+         function checkboxes()
+        {
+            var firstName = document.getElementById("fName").value;
+            if(firstName == "")
+            {
+                window.alert("required");
+                document.getElementById("fName").focus();
+                document.getElementById("fName").style.backgroundColor = "red";
+                                
+                return false;
+            }
+            var lastName = document.getElementById("lName").value;
+            if(lastName == "")
+            {
+                window.alert("required");
+                document.getElementById("lName").focus();
+                document.getElementById("lName").style.backgroundColor = "red";
+                               
+                return false;
+            }
+            var EMAIL = document.getElementById("email").value;
+            if(EMAIL == "")
+            {
+                window.alert("required");
+                document.getElementById("email").focus();
+                document.getElementById("email").style.backgroundColor = "red";
+                
+                return false;
+            } 
+            var Terms = document.getElementById("terms").value;
+            if(Terms == "No")
+            {
+                window.alert("required");
+                document.getElementById("terms").focus();
+                document.getElementById("terms").style.backgroundColor = "red";
+                       
+                return false;
+            } 
+
+        }
+    </script>
+</head>
+    <body>
+        <p> <a href="Homepage.html" >Go to my Homepage</a> </p> 
+                         <p> <a href="Second page.html" >Go to my Second page</a> </p> 
+                         <p> <a href="Third page.html" >Go to my Third page</a> </p> 
+                         <p> <a href="Kahoot.html" class="redstyle" >Go to my Kahoot Images</a>  </p> 
+                         <p> <a href="Game.html"class="redstyle" >Go to my Math Game</a> </p>
+                            <br>
+        <div>
+               <span class="Headerstyle">Terms and Conditions</span> <p> 
+    </p>
+
+    <p>First Name: <input type="text" id="fName"></p>
+    <p>Last Name: <input type="text" id="lName"></p>
+    <p>Email: <input type="text" id="email"></p>
+   
+
+    Do you accept our terms of agreement?
+        <select name="Terms" id="terms">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br>
+        <button id="btnSubmit" class="btn btn-primary" onclick='checkboxes();'>Submit</button>
+
+
+
+
+
+
+
+    
+</body>
+
+</html>

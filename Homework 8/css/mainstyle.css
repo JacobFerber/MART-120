@@ -1,0 +1,52 @@
+p{
+    font-family: Arial, Helvetica, sans-serif; 
+        font-size:20px;
+        font-weight: normal;
+       
+        font: normal 20px arial, helvetica, sans-serif;
+    
+}
+
+body{
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size:20px;
+        font-weight: normal;
+        
+        font: normal 20px arial, helvetica, sans-serif center;
+        
+
+}
+
+br{
+    
+}
+
+.Headerstyle{
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 30px;;
+    font-weight:bold;
+    background-color: sandybrown;
+    font: bold 30px arial, helvetica, sans-serif sandybrown;
+}
+
+.redstyle{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}   
+
+#greetingheader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font: size 80px;
+    font-weight:bold;
+    background-color: silver;
+    font: arial, helvetica, sans-serif italic 80px bold silver
+}
+#favoriteid{
+    font-family: Arial, Helvetica, sans-serif; 
+        font-size:20px;
+        font-weight: bold;
+        background-color: skyblue;
+        font: bold 20px arial, helvetica, sans-serif skyblue;
+}
